@@ -4,90 +4,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Renop – Renovation Made Simple</title>
-  <meta name="description" content="Renop connects you with trusted interior designers, budget planners, and renovation contractors. Make your renovation stress-free.">
+  <title>Renopedia | Singapore’s #1 Renovation Platform</title>
+  <meta name="description" content="Discover renovation ideas, get quotes from interior designers, and explore renovation packages in Singapore.">
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Hero Section -->
+  <!-- Hero Section with Lead Form -->
   <header class="hero">
     <nav class="navbar">
-      <h1>Renop</h1>
+      <h1>Renopedia</h1>
       <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#how">How It Works</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#themes">Themes</a></li>
+        <li><a href="#designers">Designers</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero-content">
-      <h2>Your Renovation. Made Simple.</h2>
-      <p>We connect you with trusted designers, contractors, and budget planners.</p>
-      <a href="#contact" class="btn">Get a Free Quote</a>
+      <h2>Find the Right Interior Designer for Your Home</h2>
+      <p>Compare renovation packages and get free quotes from trusted firms in Singapore.</p>
+      <form class="lead-form">
+        <input type="text" placeholder="e.g. 4-room HDB renovation" required />
+        <button class="btn">Get Free Quotes</button>
+      </form>
     </div>
   </header>
 
-  <!-- Services Section -->
-  <section id="services" class="section">
-    <h3>Our Services</h3>
+  <!-- Popular Themes Section -->
+  <section id="themes" class="section">
+    <h3>Popular Themes</h3>
+    <div class="service-grid">
+      <div class="card"><h4>🏠 Scandinavian</h4></div>
+      <div class="card"><h4>🏙 Industrial</h4></div>
+      <div class="card"><h4>🌿 Minimalist</h4></div>
+      <div class="card"><h4>💎 Luxury Condo</h4></div>
+    </div>
+  </section>
+
+  <!-- Featured Designers Section -->
+  <section id="designers" class="section dark">
+    <h3>Featured Interior Designers</h3>
     <div class="service-grid">
       <div class="card">
-        <h4>📝 Design Consultation</h4>
-        <p>Get expert advice to bring your vision to life.</p>
+        <img src="#" alt="Designer 1" />
+        <h4>DreamVision Studio</h4>
+        <p>Free 3D Drawing + Onsite Consultation</p>
+        <a href="#">View Profile</a>
       </div>
       <div class="card">
-        <h4>💰 Budget Planning</h4>
-        <p>Keep your renovation on budget with transparent estimates.</p>
-      </div>
-      <div class="card">
-        <h4>🔧 Contractor Matching</h4>
-        <p>We pair you with vetted, reliable professionals.</p>
+        <img src="#" alt="Designer 2" />
+        <h4>SpaceHub ID</h4>
+        <p>Up to $5,000 Rebate with Package Signup</p>
+        <a href="#">View Profile</a>
       </div>
     </div>
   </section>
 
-  <!-- How It Works Section -->
-  <section id="how" class="section dark">
-    <h3>How It Works</h3>
-    <ol>
-      <li><strong>Step 1:</strong> Tell us about your renovation goals</li>
-      <li><strong>Step 2:</strong> We connect you with the right people</li>
-      <li><strong>Step 3:</strong> Sit back and relax while we manage the rest</li>
-    </ol>
+  <!-- Project Testimonials Section -->
+  <section id="projects" class="section">
+    <h3>Recent Renovation Projects</h3>
+    <blockquote>"From 6 IDs to 1 perfect match, Renopedia made it easy!" – Marcus C.</blockquote>
+    <blockquote>"They helped us design our dream resale flat within budget." – Li Ting</blockquote>
   </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="section">
-    <h3>What Our Clients Say</h3>
-    <blockquote>“Renop made my renovation journey completely stress-free! Everything was on time and within budget.” – Jason T.</blockquote>
-    <blockquote>“I loved how they handled everything from design to finding a contractor. So easy.” – Farah R.</blockquote>
+  <!-- Blog Content Section -->
+  <section id="blog" class="section dark">
+    <h3>Articles & Inspiration</h3>
+    <ul>
+      <li><a href="#">5 Hidden Renovation Costs You Should Know</a></li>
+      <li><a href="#">2024 BTO Design Trends</a></li>
+      <li><a href="#">How to Pick the Right Interior Designer in SG</a></li>
+    </ul>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact/CTA Section -->
   <section id="contact" class="section">
-    <h3>Contact Us</h3>
-    <p style="text-align:center;">Prefer WhatsApp? Click below to chat with us directly!</p>
-    <div style="text-align:center; margin-bottom: 30px;">
-      <a href="https://wa.me/6597105627?text=Hi%2C%20I'm%20interested%20in%20your%20renovation%20services!" 
-         class="btn" style="background-color:#25D366; display: inline-block;">
-        💬 Chat on WhatsApp
-      </a>
-    </div>
-    <form action="#" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-    <div style="text-align:center; margin-top: 20px;">
-      <p>Email: <a href="mailto:hello@renop.sg">hello@renop.sg</a> | Phone: <a href="tel:+6597105627">+65 9710 5627</a></p>
-    </div>
+    <h3>Need Help? Get Matched with Top Firms Now</h3>
+    <a href="https://wa.me/6597105627?text=Hi%2C%20I'd%20like%20help%20with%20my%20renovation%20plans!" class="btn" style="background-color:#25D366;">
+      💬 Chat via WhatsApp
+    </a>
+    <p>Email us at <a href="mailto:hello@renopedia.sg">hello@renopedia.sg</a></p>
   </section>
 
-  <footer class="footer">© 2025 Renop. All rights reserved.</footer>
-  <script src="js/script.js"></script>
+  <footer class="footer">© 2025 Renopedia. All rights reserved.</footer>
 </body>
 </html>
