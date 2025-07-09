@@ -1,4 +1,5 @@
 
+/* Previous styles ... */
 :root {
   --primary-color: #007D8A;
   --secondary-color: #E8F6F7;
@@ -70,10 +71,6 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
-.hero-content form {
-  margin-top: 20px;
-}
-
 .lead-form input {
   padding: 12px;
   width: 60%;
@@ -142,6 +139,28 @@ blockquote {
 ul {
   list-style: disc inside;
   padding-left: 0;
+}
+
+.contact-cta {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.contact-wrapper h3 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.contact-wrapper p {
+  font-size: 1rem;
 }
 
 footer.footer {
