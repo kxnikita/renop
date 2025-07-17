@@ -1,22 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Renopedia</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-
   <header>
+    <h1>Renopedia</h1>
     <nav>
-      <h1>Renopedia</h1>
       <ul>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Designers</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Styles</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#designers">Designers</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#styles">Styles</a></li>
         <li><a href="faq.html">FAQ</a></li>
       </ul>
     </nav>
@@ -25,83 +24,71 @@
   <section class="hero">
     <h2>Your Trusted Renovation Partner</h2>
     <p>Get matched with top interior designers in Singapore</p>
-    <a href="#" class="btn">Get Free Quote</a>
+    <button onclick="window.location.href='#contact'">Get Free Quote</button>
   </section>
 
-  <section class="contact-cta">
+  <section class="contact-section" id="contact">
     <h3>Need Help? Get Matched with Top Firms Now</h3>
-    <a href="https://wa.me/" class="whatsapp-btn">💬 Chat via WhatsApp</a>
+    <a href="https://wa.me/6597105627" class="whatsapp-button">💬 Chat via WhatsApp</a>
     <p>Email us at <a href="mailto:hello@renopedia.sg">hello@renopedia.sg</a></p>
   </section>
 
-  <section class="centered-section">
-    <h2>Featured Interior Designers</h2>
+  <section id="designers">
+    <h2 class="centered">Featured Interior Designers</h2>
     <div class="card-container">
       <div class="card">
-        <img src="images/designer1.jpg" alt="Renologist" />
-        <p><strong>Renologist</strong></p>
+        <img src="images/designer1.jpg" alt="Renologist">
+        <a href="designers/renologist.html">Renologist</a>
       </div>
       <div class="card">
-        <img src="images/designer2.jpg" alt="Renogram" />
-        <p><strong>Renogram</strong></p>
+        <img src="images/designer2.jpg" alt="Renogram">
+        <a href="designers/renogram.html">Renogram</a>
       </div>
       <div class="card">
-        <img src="images/designer3.png" alt="Darwin Interior" />
-        <p><strong>Darwin Interior</strong></p>
+        <img src="images/designer3.png" alt="Darwin Interior">
+        <a href="designers/darwin.html">Darwin Interior</a>
       </div>
     </div>
   </section>
 
-  <section class="centered-section">
-    <h2>Recent Renovation Projects</h2>
+  <section id="projects">
+    <h2 class="centered">Recent Renovation Projects</h2>
     <div class="card-container">
-      <div class="card">
-        <img src="images/renovationstyle1.jpg" alt="Modern BTO" />
-        <p><strong>Modern BTO</strong></p>
-      </div>
-      <div class="card">
-        <img src="images/renovationstyle2.jpg" alt="Luxury Condo" />
-        <p><strong>Luxury Condo</strong></p>
-      </div>
-      <div class="card">
-        <img src="images/renovationstyle3.jpg" alt="Scandinavian HDB" />
-        <p><strong>Scandinavian HDB</strong></p>
-      </div>
+      <div class="card"><img src="images/renovationstyle1.jpg" alt="Modern BTO"><p>Modern BTO</p></div>
+      <div class="card"><img src="images/renovationstyle2.jpg" alt="Luxury Condo"><p>Luxury Condo</p></div>
+      <div class="card"><img src="images/renovationstyle3.jpg" alt="Scandinavian HDB"><p>Scandinavian HDB</p></div>
     </div>
   </section>
 
-  <section class="centered-section">
-    <h2>Popular Styles</h2>
-    <ul class="style-list">
+  <section id="styles">
+    <h2 class="centered">Popular Styles</h2>
+    <ul class="styles-list">
       <li>Minimalist</li>
       <li>Scandinavian</li>
       <li>Industrial</li>
     </ul>
   </section>
 
-  <section class="centered-section testimonials">
-    <h2>Testimonials</h2>
+  <section id="testimonials">
+    <h2 class="centered">Testimonials</h2>
     <div class="testimonial-container">
       <div class="testimonial">
-        <img src="images/customer1.jpg" alt="Customer 1" />
+        <img src="images/customer1.jpg" alt="Customer 1">
         <p><em>"Excellent service!"</em></p>
       </div>
       <div class="testimonial">
-        <img src="images/customer2.jpg" alt="Customer 2" />
+        <img src="images/customer2.jpg" alt="Customer 2">
         <p><em>"Loved the designs!"</em></p>
       </div>
       <div class="testimonial">
-        <img src="images/customer3.jpg" alt="Customer 3" />
+        <img src="images/customer3.jpg" alt="Customer 3">
         <p><em>"Highly recommend Renopedia."</em></p>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Renopedia. All rights reserved.</p>
+    <p>© 2025 Renopedia. All rights reserved.</p>
   </footer>
-
-  <button id="backToTop" title="Go to top">↑ Back to Top</button>
-
 </body>
 </html>
